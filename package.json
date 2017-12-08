@@ -1,0 +1,20 @@
+{
+  "name": "leaguepresence",
+  "version": "1.0.0",
+  "description": "Does a few cool things",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "build": "electron-packager . LeaguePresence --platform=win32 --arch=x64 --icon=Icon.ico --overwrite --asar"
+  },
+  "author": "KazoBurg",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^3.0.0-beta.4",
+    "discord.js": "github:hydrabolt/discord.js",
+    "electron": "^1.7.9"
+  },
+  "devDependencies": {
+    "electron-packager": "^10.1.0"
+  }
+}
